@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.product-img-description-container {
+  display: flex;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: roboto;
+  font-weight: bold;
+}
+.price {
+  font-size: 15px;
+  color: #1e293b;
+  font-weight: bold;
+  font-family: roboto;
+}
+.rating-star-container {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+}
+.rating {
+  color: #ffffff;
+  font-size: 5px;
+}
+.star-img {
+  height: 20px;
+  width: 20px;
+}
+.rating-and-reviews-container {
+  display: flex;
+  align-items: center;
+}
+.add-to-cart-container {
+  background-color: #3b82f6;
+  color:#ffffff;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+}

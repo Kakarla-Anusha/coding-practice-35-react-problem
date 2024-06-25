@@ -1,0 +1,45 @@
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.similar-product-img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.similar-product-title {
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: roboto;
+}
+.similar-product-brand {
+  color: #475569;
+  font-size: 15px;
+  font-family: roboto;
+}
+.price-heading {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: roboto;
+}
+.rating-container {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+}
+.star-img {
+  height: 20px;
+  width: 20px;
+}
+.rating-heading {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: roboto;
+}
+.price-rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
