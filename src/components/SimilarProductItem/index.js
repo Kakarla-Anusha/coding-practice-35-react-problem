@@ -3,17 +3,7 @@ import './index.css'
 
 const SimilarProductItem = props => {
   const {similarProductDetails} = props
-  const {
-    id,
-    imageUrl,
-    title,
-    price,
-    description,
-    brand,
-    totalReviews,
-    rating,
-    availability,
-  } = similarProductDetails
+  const {imageUrl, title, price, brand, rating} = similarProductDetails
 
   return (
     <li className="list-item-container">

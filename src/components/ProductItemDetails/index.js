@@ -56,10 +56,7 @@ class ProductItemDetails extends Component {
       },
       method: 'GET',
     }
-    const response = await fetch(
-      `http://localhost:3000/products/${id}`,
-      options,
-    )
+    const response = await fetch(`https://apis.ccbp.in/products/${id}`, options)
     if (response.ok === true) {
       const fetchedData = await response.json()
       const productDetails = this.getFormattedData(fetchedData)
@@ -69,7 +66,7 @@ class ProductItemDetails extends Component {
 
       this.setState({
         productItemList: productDetails,
-        similarProductsList: [],
+        similarProductsList: similarProducts,
         apiStatusConsts: apiStatusConsts.success,
       })
     }
